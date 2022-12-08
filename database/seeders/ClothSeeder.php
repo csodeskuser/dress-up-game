@@ -18,19 +18,19 @@ class ClothSeeder extends Seeder
     	$data = [
 			[
 	            'name' => 'cap',
-	            'image' => 'uploads/'.time().'-'.random_int(100000, 999999).'-cap.jpg',
+	            'image' => 'uploads/1670489018-930787-cap.jpg',
         	],
 			[
 	            'name' => 'shirt',
-	            'image' => 'uploads/'.time().'-'.random_int(100000, 999999).'-shirt.jpg',
+	            'image' => 'uploads/1670489018-482104-shirt.jpg',
         	],
 			[
 	            'name' => 'jeans',
-	            'image' => 'uploads/'.time().'-'.random_int(100000, 999999).'-jeans.jpg',
+	            'image' => 'uploads/1670489018-498498-jeans.jpg',
         	],
 			[
 	            'name' => 'sun glasses',
-	            'image' => 'uploads/'.time().'-'.random_int(100000, 999999).'-glass.jpg',
+	            'image' => 'uploads/1670489018-805189-glass.jpg',
         	],
     	];
         DB::table('clothes')->insert($data);
